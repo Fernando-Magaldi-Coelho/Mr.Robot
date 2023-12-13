@@ -1,0 +1,113 @@
+body{
+    background-color: var(--fundo);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_fso_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container_fso_video h1{
+    margin-top: 5rem;
+}
+
+.main .container_terminal textarea{
+    color: green;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea::-webkit-scrollbar{
+    background-color: transparent;
+    width: 5px;
+}
+
+textarea::-webkit-scrollbar-button{
+    background-color: transparent;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: green;
+    border-radius: 20px;
+}
+
+.main .container_terminal{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.container_terminal {
+    position: relative;
+}
+
+.terminal-input::before {
+    content: "Elliot:~$ ";
+    position: absolute;
+    left: 5px;
+    color: #00ff00; 
+    user-select: none;
+}
+
+
+
+.terminal-input {
+    width: calc(100% - 10px); 
+    white-space: pre-wrap;
+    padding-left: 20px;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .3s linear;
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 11rem;
+}
+
+
+
+.container_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container_card img:hover{
+    cursor: pointer;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    z-index: 5;
+}
+
+
+.clicked {
+    transform: translateY(-50px);
+}
+
+

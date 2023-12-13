@@ -1,0 +1,76 @@
+.header{
+}
+
+.header .container_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    object-fit: cover;
+}
+
+.header .container_img .img_wall img{
+    border-radius: 10px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.img_wall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    position: relative;
+    top: 4rem;
+}
+
+.titles{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-text::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+.content button{
+  padding: 0 2rem;
+  background-color: transparent;
+  border: 3px solid red;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: background-color .2s linear;
+  position: relative;
+  top: 7.5rem;
+  font-size: 1.2rem;
+}
+
+.content button:hover{
+  background-color: rgb(161, 3, 3);
+  cursor: pointer;
+}
+
+.content h1{
+  color: red;
+  font-size: 3rem;
+  font-family: 'MrRobot', 'Prompt';
+}
+
+
+
+

@@ -1,0 +1,14 @@
+@import 'style.css';
+@import 'components/main.css';
+@import 'components/footer.css';
+@import 'components/header.css';
+@import 'components/navbar.css';
+
+@font-face {
+    font-family: MrRobot;
+    src: url(/assets/fonts/MR\ ROBOT.ttf);
+  }
+
+:root{
+    --fundo: #222831;
+}
